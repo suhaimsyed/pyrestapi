@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pyapi:
+    image: realstore/pyapitutorial:latest
+    container_name: pyapi
+    restart: always
+    ports:
+      - "5000:5000"
